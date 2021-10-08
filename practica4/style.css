@@ -1,0 +1,97 @@
+body {
+    font-family: Verdana;
+    font-size: 12pt;
+    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(100, 98, 224));
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+}
+table{
+	
+	text-align: center;
+	border-collapse:separate ;
+	width: 100%;
+    border: 0px;
+    margin: 1em;
+}
+th, td{
+	padding: 20px;
+    font-size: 10pt;
+    
+}
+
+thead{
+	background-color: rgba(103, 93, 105, 0.774);
+	color: white;
+}
+tfoot{
+    background-color: rgba(255, 255, 255, 0.3);
+	color: black;
+    text-align: left;
+    
+}
+
+
+.backgrounds {
+    
+    background:rgb(179, 177, 177); /* También es posible repeat-x, repeat-y, repeat*/
+    background-clip: padding-box;
+
+    border-image: url(pattern.png);
+    border-image-slice: 27;
+    border-width: 20px;
+    border-style: solid;
+    border-image-width: 20px;
+    border-image-repeat: stretch round;
+
+    margin: 50px -7px 10px 10px;
+    padding: 10px 50px 30px 500px;
+
+    height: 50px;
+    
+}
+.class1 {
+    background-color:rgba(54, 54, 94, 0.507);
+    text-align:center;
+    font-weight: bold;
+}
+
+
+.class2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+   
+}
+.class3 {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    text-align:left;
+}
+.class4 {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    text-align:center;
+    padding: 20px;
+    
+}
+a:link {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+
+}
+a:active{
+    background-color: teal;
+    color: white;
+}
+a:hover{
+    background-color: blue;
+    color:white
+}
+A:visited{
+    background-color: rgb(255, 115, 0);
+    color:white
+}
+  
