@@ -1,0 +1,186 @@
+
+  
+  body {
+    background-image: linear-gradient(to right, rgba(56, 58, 163, 0.877), #11802db9);
+    font-family:Arial;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+  }
+
+.box {
+
+    background: linear-gradient(45deg, #009, #1cb5e0);
+    color: white;
+    font-size: 30px;
+    margin: 50px 20px -50px 20px;
+    padding: 25px 40px 10px 30px;
+    border-radius: 20px;
+
+}
+.box2 {
+
+    background:rgb(211, 208, 208);
+    font-family:Verdana;
+    color: black;
+    font-size:17px;
+    margin: 50px 20px 30px 20px;
+    border-width: 20px 50px 20px ;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(211, 208, 208);
+    border-radius: 10px;
+}
+.box3 {
+
+  background:rgb(211, 208, 208);
+  font-family:Verdana;
+  color: black;
+  font-size: 16px;
+  padding: 5px 420px 5px ;
+  border-width: 20px 50px 20px ;
+  border-style: solid;
+  border-color: rgb(211, 208, 208);
+  border-radius: 10px;
+
+}
+.class2{
+  background-color: rgb(211, 208, 208);
+    color: black;
+    width: 400px;
+    padding: 20px 320px 20px ;
+    margin: 10px 20px 20px 20px;
+  border-width: 20px 90px 20px ;
+  text-align: left;
+   
+}
+.class3{
+    font-family: verdana;
+    font-size: 13px;
+}
+.class4{
+  font-family: verdana;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 10px 32px ;
+}
+.container {
+  width: 90%;
+  margin:-20px auto;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.column{
+  background-color: rgb(6, 6, 138);
+  color: white;
+  font-family: Verdana;
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: row;
+  padding: 15px 5px;
+  height: 20px;
+  margin:auto;
+  border-radius: 10px;
+  justify-content:space-evenly;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-flow:wrap;
+}
+
+.card {
+  width: 30%;
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.card-header {
+  padding: 50px 20px 130px;
+  background-image: linear-gradient(270deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
+  border-radius: 10px;
+  height: 100px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #2a2ca0, #11802d);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 15px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.form {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.form div {
+  display: flex;
+  
+}
+
+.form-label {
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+
+  text-align: right;
+}
+
+.form-input, .radio-options {
+  margin: 5px;
+  width: 250px;
+  border-color: blue;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: column-reverse; /* row, row-reverse, column, column-reverse */
+  margin: 10px;
+}
+
+button {
+  width: 80px;
+  padding: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #009;
+  border-radius: 10px;
+  color: white;
+
+  font-size: 15pt;
+}
+
+button:hover {
+  background-color: red;
+  color: yellow;
+}
